@@ -413,6 +413,9 @@ SIDEBAR
   color: rgb(122, 132, 203);
 }
 
+ul.sidebar__links {
+  margin-bottom: 300px;
+}
 .show {
   transform: translateX(0);
   transition: 0.3s;
