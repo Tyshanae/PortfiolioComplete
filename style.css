@@ -15,6 +15,11 @@ RESETS
   box-sizing: border-box;
 }
 
+@media (max-width: 800px) {
+  * {
+   transition: none !important;
+  }
+}
 html {
   scroll-behavior: smooth;
 }
@@ -584,22 +589,13 @@ section.img_tile {
   }
 }
 
-@media (hover:hover) {
+@media (hover: none) {
   .skills_section:hover {
     cursor: pointer;
     transform: translateX(30px);
     transform: translateY(-10px);
   }
   
-  .skills__title,
-.skills_bio {
-  font-family: Arial, "Literata", serif, sans-serif, "Courier New", Courier, monospace;
-  color: black;
-  padding: 1rem 0;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 30px;
-}
 }
 
 
